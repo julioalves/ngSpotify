@@ -9,13 +9,17 @@ import {SearchComponent} from './components/search/search.component';
 import {AboutComponent} from './components/about/about.component';
 import {routing} from "./app.routing";
 import {SpotifyService} from "./services/spotify.service";
+import { ArtistComponent } from './components/artist/artist.component';
+import { AlbumComponent } from './components/album/album.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         NavbarComponent,
         SearchComponent,
-        AboutComponent
+        AboutComponent,
+        ArtistComponent,
+        AlbumComponent
     ],
     imports: [
         BrowserModule,
